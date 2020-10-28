@@ -1,0 +1,21 @@
+.main{
+    margin: auto;
+    text-align: justify;
+    width: 60%;
+    background-color: #ccedd2;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.icon{
+  text-align: center;
+  padding: 2rem;
+  color: #52de97;
+}
+.terms-bottom-div{
+  padding: 3rem;
+  margin:auto;
+  background-color: grey;
+}
+ol{
+  padding: 3rem;
+}

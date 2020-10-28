@@ -1,0 +1,29 @@
+.model-page{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+      font-family: 'Ubuntu', sans-serif;
+}
+.model-box{
+    margin: 2rem;
+    flex-basis: 5rem;
+      font-family: 'Ubuntu', sans-serif;
+}
+.list-group{
+    font-size: 2rem;
+      font-family: 'Ubuntu', sans-serif;
+}
+.model-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+      font-family: 'Ubuntu', sans-serif;
+}
+.container-fluid{
+    background-color: #a4b494;
+      font-family: 'Ubuntu', sans-serif;
+}

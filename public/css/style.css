@@ -1,0 +1,107 @@
+.page-footer{
+background-color: #a4b494;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+}
+a{
+  color: white;
+}
+.mobile-service{
+  text-align: left;
+}
+.footer-margin{
+  margin: 4rem;
+}
+.footer-copyright{
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+.fa{
+  padding: 1rem;
+}
+.footer-text{
+  text-align: right;
+}
+.list-unstyled{
+  text-align: justify;
+}
+.ft-legal {
+  margin-bottom: 15rem;
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+}
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;       /* same as flex-grow: 1; */
+}
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem /*200px*/;
+}
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+.sticky-section {
+    padding: 0.9375rem 1.875rem;
+    background-color: #9ba4b4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.sticky-element-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    margin: 2rem;
+}
+.footer-link{
+  text-decoration: underline;
+}
+.footer-link-margin{
+  padding-left: 10rem;
+}
+.sticky-element-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+    list-style-type:none;
+}
+/* one before the last child */
+.sticky-element-list li:nth-last-child(0) {
+    flex: 1;       /* same as flex-grow: 1; */
+}
